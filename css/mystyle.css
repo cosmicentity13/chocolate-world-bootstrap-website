@@ -1,0 +1,50 @@
+/* Task 2, 3, 4, 5 */ 
+body {
+	animation-name: backgroundColorPalette;
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+	animation-timing-function: linear; 
+}
+
+@keyframes backgroundColorPalette {
+	0% {
+		background: #ee6055;
+	}
+	25% {
+		background: #60d394;
+	}
+	50% {
+		background: #aaf683;
+	}
+	75% {
+		background: #ffd97d;
+	}
+	100% {
+		background: #ff9b85;
+	}
+}
+
+
+h2 {
+  color: navy;
+  margin: 20px;
+}
+
+h4 {
+  margin-top: 20px;
+}
+
+h6 {
+  margin-bottom: 40px;
+}
+
+p {
+	margin: 20px;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+  padding-right: 1.5rem;
+  padding-left: 1.5rem;
+  font-size: 20px;
+}
